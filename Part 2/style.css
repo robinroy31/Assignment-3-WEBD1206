@@ -1,0 +1,32 @@
+/*	Name: Robin Roy 
+	File: index.html
+	Date: 2025-06-23
+	description: assignment 3 style/css/ HTML
+  */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.fancy-box {
+    width: 200px; /* Reasonable width for a large box */
+    height: 150px; /* Reasonable height for a large box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e60000; /* Base color for the design */
+    color: #ffffff; /* Contrasting color for the text */
+    text-shadow: 1px 1px 1px #000000; /* Black text shadow */
+    font-size: 1.125rem; /* 18 pixels; calculated as 18 / 16 = 1.125 rems */
+    border-radius: 10px; /* Fairly subtle border radius */
+    border: 1px solid #cc0000; /* Slightly darker shade of the base color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), /* Standard box shadow */
+                inset 0 -4px 8px rgba(0, 0, 0, 0.2), /* Inset black shadow at the bottom right */
+                inset 0 4px 8px rgba(255, 255, 255, 0.2); /* Inset white shadow at the top left */
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%);
+}

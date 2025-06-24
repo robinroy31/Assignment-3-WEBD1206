@@ -1,0 +1,72 @@
+/* General setup */
+/*	Name: Robin Roy 
+	File: index.html
+	Date: 2025-06-23
+	description: assignment 3 style/css/ HTML
+  */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+ 
+/* Navigation menu */
+nav {
+  background-color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #a66;
+  font-size: 20px;
+  display: block;
+  padding: 15px;
+  border: 2px solid #a66;
+  border-radius: 0px;
+  text-align: center;
+}
+

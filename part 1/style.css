@@ -1,0 +1,25 @@
+/*	Name: Robin Roy 
+	File: index.html
+	Date: 2025-06-23
+	description: assignment 3 style/css/ HTML
+  */
+h1 {
+    color: hotpink;
+    border-bottom: 10px dotted purple;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(173, 166, 166);
+}
+
+ul {
+    background-color: #eeeeee;
+    border: 5px solid purple;
+    padding: 10px;
+}
+
+a:hover {
+    color: green;
+}
